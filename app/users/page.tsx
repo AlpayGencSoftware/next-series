@@ -28,7 +28,7 @@ export default async function Users(){
                     return(
                         <>
                         <p key={user.id}>
-                            <Link href={`/users/${user.id}`}>{user.name}</Link>
+                           <Link href={`/users/${user.id}`}>{user.name}</Link>
                         </p>
                         <br/>
                         </>

@@ -1,5 +1,10 @@
 import React from "react"
-
+type Post = {
+    // Post tipi için gerekli alanları burada tanımlayın.
+    id: string;
+    title: string;
+    body: string  
+  };
 type Props={
     promise:Promise<Post[]>
 }
