@@ -6,13 +6,7 @@ import styles from './page.module.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import React from 'react';
-
-
-export const pageInfo: Metadata = {
-  title: 'Users',
-};
-
-const inter=Inter({subsets: ['latin']})
+ 
 
 export default function Home() {
   return (

@@ -16,11 +16,11 @@ type User = {
   };
 
   type Post = {
-    // Post tipi için gerekli alanları burada tanımlayın.
-    id: string;
-    title: string;
-    // diğer alanlar...
-  };
+  // Post tipi için gerekli alanları burada tanımlayın.
+  id: string;
+  title: string;
+  // diğer alanlar...
+};
 export async function generateMetaData({ params:{userId}}:Params):Promise<Metadata> {
     const userData: Promise<User> = getUser(userId);
     const user:User=await userData

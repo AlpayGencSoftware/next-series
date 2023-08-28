@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import getAllUsers from "../lib/getAllUsers";
 import Link from "next/link";
-
+import React from "react";
 
 type User = {
     id: string;
     name: string;
   };
+  
 export const metadata:Metadata={
     title: 'Users',
 }
